@@ -8,3 +8,5 @@ backup()
 {
 echo "Creating backup ${DATEGOBRRR} ${CD}.backup.${DATEGOBRRR}"
 }
+
+backup()
