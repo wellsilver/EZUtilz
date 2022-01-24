@@ -1,6 +1,7 @@
 
 #LOCALSSSS
-export CD=$PWD
+#WORKS ON UBUNTU
+CD=$PWD
 DATEGOBRRR=`date +"%Y-%m-%d %T"`
 
 backup()
