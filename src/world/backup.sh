@@ -1,10 +1,9 @@
 
 #LOCALSSSS
-export SCRIPT_DIR=$( cd "$( dirname "$0" )" && pwd )
-currentDate=`date`
-
+export CD=$PWD
+DATEGOBRRR=`date +"%Y-%m-%d %T"`
 
 backup()
 {
-printf "Creating backup "
+echo "Creating backup ${DATEGOBRRR} ${CD}.backup.${DATEGOBRRR}"
 }
